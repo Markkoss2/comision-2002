@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de bootstrap - Formulario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+        <!-- FORMULARIO -->
+        <form>
+            <div class="container bg-light px-4">
+                <div class="row">
+                    <!-- Nombre -->
+                    <div class=" col form-group">
+                        <label for="nombre">Nombre de pila</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Aqui su nombre">
+                    </div>
+
+                    <!-- Apellido -->
+                    <div class="col form-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" class="form-control" placeholder="Aqui su apellido">
+                    </div>
+                </div><!-- ./row -->
+                
+                <!-- Nombre Usuario -->
+                <label for="Username">Nombre de usuario</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" id="Username" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Correo electronico <span class="text-secondary">(opcional)</span></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+
+                <!-- Direccion 1 -->
+                <div class="form-group">
+                    <label for="inputAddress">Habla a</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                
+                <!-- Direccion 2 -->
+                <div class="form-group">
+                    <label for="inputAddress2">Direccion 2 <span class="text-secondary">(opcional)</span></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento o suite">
+                </div>
+
+                <!-- Pais -->
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="pais">Pais</label>
+                      <select id="pais" class="form-control">
+                        <option selected>Escoger...</option>
+                        <option>Argentina</option>
+                        <option>Peru</option>
+                        <option>EEUU</option>
+                    </select>
+                </div>
+                    
+                <!-- Estado -->
+                <div class="form-group col-md-4">
+                    <label for="estado">Estado</label>
+                    <select id="estado" class="form-control">
+                        <option selected>Escoger...</option>
+                        <option>Bs. As.</option>
+                        <option>Capital Federal</option>
+                    </select>
+                </div>
+
+                <!-- Codigo Postal -->
+                <div class="form-group col-md-2">
+                    <label for="codigoPostal">Codigo Postal</label>
+                    <input type="text" class="form-control" id="codigoPostal">
+                </div>
+                  
+                <!-- Check -->
+                <div class="container">
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                  <label class="form-check-label" for="gridCheck1">
+                                    La direccion de envio es la misma que mi direccion de facturacion
+                                  </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck2">
+                                  <label class="form-check-label" for="gridCheck2">
+                                    Guarde esta informacion para la proxima vez
+                                  </label>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+                
+            </div><!-- ./container -->
+            
+        </form><!-- ./form -->
+            
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
